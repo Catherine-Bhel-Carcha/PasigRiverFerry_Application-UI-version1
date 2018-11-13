@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5EBD8"
+    tools:context=".Screen11">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="348dp"
+        android:layout_height="566dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#70D7BF"
+        app:cardElevation="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.514">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/mmda" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="125dp"
+            android:text="@string/safety_precautions"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton"
+            android:layout_marginStart="65dp" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="282dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/know_more_about_us"
+            android:textAllCaps="false"
+            android:textColor="#383838"
+            android:textColorHighlight="?android:attr/colorForeground"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton"
+            tools:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/fare"
+            android:layout_width="302dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="90dp"
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/we_want_you_to_get_to_know_us_better"
+            android:textColor="#383838"
+            android:textSize="16sp"
+            app:fontFamily="@font/anton"
+            tools:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="165dp"
+            android:text="@string/reminders_when_riding_our_ferry"
+            android:textColor="#383838"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="200dp"
+            android:text="@string/_1_minors_are_strictly_advice_not_to_stand_specially_near_the_railings_of_the_ferry_boat_parents_should_look_after_them"
+            android:textSize="16sp"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="260dp"
+            android:text="@string/_2_smoking_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited_throwing_of_trash_in_the_river_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited"
+            android:textSize="16sp"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="340dp"
+            android:text="@string/_3_there_is_a_checkpoint_conducted_by_the_philippine_coast_guard_before_passing_by_the_malacanang_it_is_for_the_safety_of_the_passengers_your_cooperation_understanding_and_patience_are_needed_for_the_delay_of_the_trip_taking_of_pictures_within_the_malacanang_area_is_prohibited"
+            android:textSize="16sp"
+            app:fontFamily="@font/anton" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="480dp"
+            android:text="@string/_4_passengers_are_provided_with_life_vest_that_can_be_located_under_each_chair_for_safety_measure_be_sure_to_wear_it_everytime_you_are_riding_the_ferry_boat"
+            android:textSize="16sp"
+            app:fontFamily="@font/anton" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="333dp"
+            android:layout_height="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="190dp"
+            android:background="@android:color/background_light"
+            android:visibility="visible" />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

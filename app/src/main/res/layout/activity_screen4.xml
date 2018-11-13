@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B5EBD8"
+    tools:context=".Screen4">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="348dp"
+        android:layout_height="566dp"
+        android:layout_centerInParent="true"
+        app:cardBackgroundColor="#70D7BF"
+        app:cardElevation="9dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="49dp"
+            android:layout_height="43dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="15dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/mmda" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="309dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="60dp"
+            android:text="@string/know_your_destination"
+            android:textAllCaps="false"
+            android:textColor="#383838"
+            android:textColorHighlight="?android:attr/colorForeground"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/anton"
+            tools:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="297dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="95dp"
+            android:gravity="center"
+            android:text="@string/get_to_know_your_destination_and_landmarks_near_them"
+            android:textColor="#383838"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/pinagbuhatan"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="152dp"
+            app:srcCompat="@drawable/pinagbuhatan1"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="15dp" />
+
+        <ImageButton
+            android:id="@+id/escolta"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="152dp"
+            app:srcCompat="@drawable/escolta1"
+            android:layout_marginStart="122dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/guadalupe"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="152dp"
+            app:srcCompat="@drawable/guadalupe1"
+            android:layout_marginStart="230dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/hulo"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/hulo1"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="15dp" />
+
+        <ImageButton
+            android:id="@+id/lambingan"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/lambingan1"
+            android:layout_marginStart="122dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/lawton"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="240dp"
+            app:srcCompat="@drawable/lawton1"
+            android:layout_marginStart="230dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/maybunga"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="328dp"
+            app:srcCompat="@drawable/maybunga1"
+            android:contentDescription="@string/todo"
+            android:layout_marginStart="15dp" />
+
+        <ImageButton
+            android:id="@+id/pup"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginTop="328dp"
+            app:srcCompat="@drawable/pup"
+            android:layout_marginStart="122dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/valenzuela"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="328dp"
+            app:srcCompat="@drawable/valenzuela1"
+            android:layout_marginStart="230dp"
+            android:contentDescription="@string/todo" />
+
+        <ImageButton
+            android:id="@+id/sta"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="415dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/staana2" />
+
+        <ImageButton
+            android:id="@+id/plaza"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="122dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginTop="415dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/hi" />
+
+        <ImageButton
+            android:id="@+id/san"
+            android:layout_width="103dp"
+            android:layout_height="82dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginStart="230dp"
+            android:layout_marginTop="415dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/hello" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="322dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="510dp"
+            android:background="#4C6663"
+            android:text="@string/show_map"
+            android:textColor="@android:color/background_light"
+            android:layout_marginStart="15dp" />
+
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
