@@ -20,6 +20,14 @@ public class MainActivity extends AppCompatActivity {
             i = new Intent(this, Screen2.class);
             startActivity(i);
         }
+        if (v.getId() == R.id.stations){
+            i = new Intent(this, Screen4.class);
+            startActivity(i);
+        }
+        if(v.getId()==R.id.about){
+            i = new Intent(this, Screen8.class);
+            startActivity(i);
+        }
         // } else if (v.getId() == R.id.stations) {
         //    i = new Intent(getIntent().ACTION_VIEW);
         //  i.setData(Uri.parse("http://maps.google.com/maps?q=loc:" + 14.589595 + "," + 120.975579));
