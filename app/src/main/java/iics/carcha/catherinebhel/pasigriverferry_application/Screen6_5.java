@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
+import android.view.View;
 
 public class Screen6_5 extends AppCompatActivity {
     float x1, y1, x2, y2;
@@ -33,5 +34,11 @@ public class Screen6_5 extends AppCompatActivity {
                 break;
         }
         return false;
+    }
+
+    public void process(View v){
+        if(v.getId()==R.id.button2) {
+            startActivity(Stations.goToMaps(3));
+        }
     }
 }

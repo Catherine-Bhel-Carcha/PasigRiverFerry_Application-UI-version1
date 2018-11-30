@@ -748,8 +748,7 @@ public class Screen3 extends AppCompatActivity {
     public void process(View v) {
         Intent i = null, chooser = null;
         if (v.getId() == R.id.other) {
-            i = new Intent(this, Screen2.class);
-            startActivity(i);
+            super.onBackPressed();
         }
         // } else if (v.getId() == R.id.stations) {
         //    i = new Intent(getIntent().ACTION_VIEW);
