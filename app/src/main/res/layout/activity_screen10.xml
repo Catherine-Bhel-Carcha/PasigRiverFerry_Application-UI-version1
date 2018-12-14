@@ -32,15 +32,15 @@
 
         <TextView
             android:id="@+id/textView12"
-            android:layout_width="wrap_content"
+            android:layout_width="228dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
             android:layout_marginTop="125dp"
+            android:gravity="center"
             android:text="@string/safety_precautions"
             android:textSize="22sp"
-            android:textStyle="bold"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="65dp" />
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/info"
@@ -51,6 +51,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_more_about_us"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -85,7 +86,6 @@
             android:text="@string/steps_in_riding_the_ferry"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -94,77 +94,78 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="200dp"
             android:text="@string/_1_inspection_of_bags_to_be_conducted_by_the_guards_before_entering_the_station"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="250dp"
             android:text="@string/_2_buy_a_ferry_ticket_and_sign_the_manifest"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="300dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="280dp"
             android:text="@string/_3_wait_at_the_waiting_area_for_the_call_to_ride_the_ferry_boat"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView16"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="330dp"
             android:text="@string/_4_ride_the_ferry_boat_safely"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="380dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="360dp"
             android:text="@string/_5_follow_the_rules_regulations_and_precautions_whileriding_the_ferry_boat"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView18"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="430dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="415dp"
             android:text="@string/_6_go_down_the_ferry_boat_safely_when_you_reach_the_destination_and_get_out_of_the_station"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView19"
-            android:layout_width="wrap_content"
+            android:layout_width="296dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="510dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="475dp"
+            android:gravity="center"
             android:text="@string/people_with_disabilities_can_ask_for_help_and_inform_the_crew_to_assist_them"
-            android:textSize="18sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="15sp"
+            app:fontFamily="@font/anton" />
 
         <View
             android:id="@+id/divider"

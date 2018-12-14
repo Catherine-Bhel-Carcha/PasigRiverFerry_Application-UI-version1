@@ -44,7 +44,7 @@
         <item>Pinagbuhatan</item>
     </string-array>
     <string name="title_activity_screen6_2">Screen6_2</string>
-    <string name="near_jquezon_bridge_plaza_lawton_at_post_office">Near JQuezon Bridge, Plaza Lawton at Post Office</string>
+    <string name="near_jquezon_bridge_plaza_lawton_at_post_office">Near Quezon Bridge, Plaza Lawton at Post Office</string>
     <string name="manila_city">Manila City</string>
     <string name="lawton_station">LAWTON STATION</string>
     <string name="near_jones_bridge">Near Jones Bridge</string>
@@ -78,15 +78,15 @@
     <string name="people_with_disabilities_can_ask_for_help_and_inform_the_crew_to_assist_them">People with Disabilities can ask for help and inform the crew to assist them</string>
     <string name="_6_go_down_the_ferry_boat_safely_when_you_reach_the_destination_and_get_out_of_the_station">6. Go down the ferry boat safely when you reach the destination and get out of the station</string>
     <string name="steps_in_riding_the_ferry">STEPS IN RIDING THE FERRY</string>
-    <string name="_1_inspection_of_bags_to_be_conducted_by_the_guards_before_entering_the_station">1.Inspection of Bags to be conducted by the Guards before entering the station</string>
-    <string name="_2_buy_a_ferry_ticket_and_sign_the_manifest">2.Buy a Ferry Ticket and sign the manifest</string>
-    <string name="_3_wait_at_the_waiting_area_for_the_call_to_ride_the_ferry_boat">3.Wait at the waiting area for the call to ride the ferry boat</string>
-    <string name="_4_ride_the_ferry_boat_safely">4.Ride the ferry boat safely</string>
-    <string name="_5_follow_the_rules_regulations_and_precautions_whileriding_the_ferry_boat">5.Follow the rules, regulations, and precautions whileriding the ferry boat</string>
+    <string name="_1_inspection_of_bags_to_be_conducted_by_the_guards_before_entering_the_station">1. Inspection of Bags to be conducted by the Guards before entering the station</string>
+    <string name="_2_buy_a_ferry_ticket_and_sign_the_manifest">2. Buy a Ferry Ticket and sign the manifest</string>
+    <string name="_3_wait_at_the_waiting_area_for_the_call_to_ride_the_ferry_boat">3. Wait at the waiting area for the call to ride the ferry boat</string>
+    <string name="_4_ride_the_ferry_boat_safely">4. Ride the ferry boat safely</string>
+    <string name="_5_follow_the_rules_regulations_and_precautions_whileriding_the_ferry_boat">5. Follow the rules, regulations, and precautions while riding the ferry boat</string>
     <string name="reminders_when_riding_our_ferry">REMINDERS WHEN RIDING OUR FERRY</string>
-    <string name="_1_minors_are_strictly_advice_not_to_stand_specially_near_the_railings_of_the_ferry_boat_parents_should_look_after_them">1.Minors are strictly advice not to stand specially near the railings of the ferry boat. Parents should look after them.</string>
-    <string name="_2_smoking_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited_throwing_of_trash_in_the_river_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited">2.Smoking inside the station and inside the ferry boat is strictly prohibited.Throwing of Trash in The River, Inside the station and Inside the ferry boat is strictly prohibited</string>
-    <string name="_3_there_is_a_checkpoint_conducted_by_the_philippine_coast_guard_before_passing_by_the_malacanang_it_is_for_the_safety_of_the_passengers_your_cooperation_understanding_and_patience_are_needed_for_the_delay_of_the_trip_taking_of_pictures_within_the_malacanang_area_is_prohibited">3.There is a checkpoint conducted by the Philippine Coast Guard before passing by the Malacanang. It is for the safety of the passengers. Your cooperation, understanding and patience are needed for the delay of the trip Taking of Pictures within the Malacanang Area is Prohibited</string>
+    <string name="_1_minors_are_strictly_advice_not_to_stand_specially_near_the_railings_of_the_ferry_boat_parents_should_look_after_them">1. Minors are strictly advice not to stand specially near the railings of the ferry boat. Parents should look after them.</string>
+    <string name="_2_smoking_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited_throwing_of_trash_in_the_river_inside_the_station_and_inside_the_ferry_boat_is_strictly_prohibited">2. Smoking inside the station and inside the ferry boat is strictly prohibited.Throwing of Trash in The River, Inside the station and Inside the ferry boat is strictly prohibited</string>
+    <string name="_3_there_is_a_checkpoint_conducted_by_the_philippine_coast_guard_before_passing_by_the_malacanang_it_is_for_the_safety_of_the_passengers_your_cooperation_understanding_and_patience_are_needed_for_the_delay_of_the_trip_taking_of_pictures_within_the_malacanang_area_is_prohibited">3. There is a checkpoint conducted by the Philippine Coast Guard before passing by the Malacanang. It is for the safety of the passengers. Your cooperation, understanding and patience are needed for the delay of the trip Taking of Pictures within the Malacanang Area is Prohibited</string>
     <string name="_4_passengers_are_provided_with_life_vest_that_can_be_located_under_each_chair_for_safety_measure_be_sure_to_wear_it_everytime_you_are_riding_the_ferry_boat">4. Passengers are provided with Life Vest that can be located under each chair for safety measure. Be sure to wear it everytime you are riding the ferry boat</string>
     <string name="where_can_we_asked_for_help_if_we_have_questions">Where can we asked for help if we have questions?</string>
     <string name="just_visit_the_mmda_website_where_passengers_can_know_the_important_informations_about_the_pasig_river_ferry_service_passengers_can_also_visit_the_facebook_account_at_mmda_pasig_river_where_you_can_be_informed_about_the_important_happenings_and_announcements_about_the_pasig_river_ferry_service">Just visit the MMDA website where passengers can know the important informations about the Pasig River Ferry Service. Passengers can also visit the Facebook Account at MMDA Pasig River where you can be informed about the important happenings and announcements about the Pasig River Ferry Service</string>
@@ -96,5 +96,13 @@
     <string name="do_you_accept_exclusive_or_special_trips_tour">Do you accept exclusive or special trips/tour?</string>
     <string name="dont_forget_to_write_the_following_when_is_the_trip_how_many_passengers_and_your_contact_details_for_easier_transaction_you_can_leave_your_request_at_any_stations_of_the_ferry_service">Dont Forget to write the following: When is the Trip, How many passengers and your contact details for easier transaction. You can leave your request at any stations of the ferry service.</string>
     <string name="yes_this_happens_every_sunday_or_current_special_holidays_you_just_need_to_write_a_letter_to_our_office_and_send_it_to_the_officials_you_may_send_the_request_at_mmda_pasig_river_ferry_service_mmda_building_edsa_corner_orense_st_guadalupe_makati_city">Yes. this happens every sunday or current special holidays. You just need to write a letter to our office and send it to the officials. you may send the request at MMDA Pasig River Ferry Service, MMDA Building EDSA corner Orense St., Guadalupe. Makati City.</string>
+    <string name="hulo_station">HULO STATION</string>
+    <string name="near_parish_of_our_lady_of_the_abandoned">Near Parish of Our Lady of the Abandoned</string>
+    <string name="coronado_street_mandaluyong_city">Coronado Street, Mandaluyong City</string>
+    <string name="todo62">TODO</string>
+    <string name="guadalupe_station">GUADALUPE STATION</string>
+    <string name="j_p_rizal_extension_makati_city">J.P. Rizal Extension, Makati City</string>
+    <string name="near_mrt_guadalupe_station_at_commercial_mall">Near MRT Guadalupe Station at Commercial Mall</string>
+    <string name="todo62">TODO</string>
 </resources>
 

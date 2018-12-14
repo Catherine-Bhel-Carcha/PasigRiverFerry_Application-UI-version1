@@ -73,7 +73,6 @@
             android:text="@string/know_more_about_us"
             android:textColor="#383838"
             android:textSize="50sp"
-            android:textStyle="bold"
             app:fontFamily="@font/anton" />
 
         <TextView
@@ -85,7 +84,6 @@
             android:text="@string/we_want_you_to_get_to_know_us_better"
             android:textColor="#383838"
             android:textSize="24sp"
-            android:textStyle="bold"
             app:fontFamily="@font/anton" />
 
     </android.support.v7.widget.CardView>

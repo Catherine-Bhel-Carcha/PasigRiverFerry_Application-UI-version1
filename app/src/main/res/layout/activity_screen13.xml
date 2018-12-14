@@ -32,16 +32,16 @@
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
+            android:layout_width="313dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
             android:text="@string/frequently_asked_questions"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:fontFamily="@font/anton"
             android:textColor="#383838"
-            android:layout_marginStart="20dp" />
+            android:textSize="22sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/info"
@@ -52,6 +52,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_more_about_us"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -82,11 +83,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="170dp"
             android:text="@string/is_there_discounts_for_students_senior_citizens_and_pwds_when_riding_the_ferry"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -96,9 +96,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="270dp"
-            android:textColor="#383838"
+            android:layout_marginTop="250dp"
+            android:gravity="center"
             android:text="@string/yes_the_pasig_river_ferry_service_follows_the_republic_act_no_9994_which_states_that_20_discount_is_given_to_students_senior_citizens_and_pwds_when_availing_the_ferry_service_just_show_any_identification_cards_id_when_availing_the_service"
+            android:textColor="#383838"
             android:textSize="20sp"
             app:fontFamily="@font/anton" />
 
@@ -108,7 +109,7 @@
             android:layout_height="3dp"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="250dp"
+            android:layout_marginTop="225dp"
             android:background="@android:color/background_light"
             android:visibility="visible" />
 

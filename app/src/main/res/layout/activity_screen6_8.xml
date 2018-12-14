@@ -33,6 +33,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_your_destination"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -76,11 +77,11 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="250dp"
+                android:layout_marginTop="255dp"
                 android:text="@string/valenzuela_station"
+                android:textColor="#383838"
                 android:textSize="22sp"
                 android:textStyle="bold"
-                android:textColor="#383838"
                 app:fontFamily="@font/anton" />
 
             <TextView
@@ -89,21 +90,21 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="280dp"
-                android:textColor="#383838"
+                android:layout_marginTop="290dp"
                 android:text="@string/a_bonifacio_street_makati_city"
+                android:textColor="#383838"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="wrap_content"
+                android:layout_width="305dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="310dp"
-                android:textColor="#383838"
+                android:layout_marginTop="315dp"
                 android:text="@string/near_bonaventure_garden_homes_riverside_studios_manila_at_lto_makati_district_office"
-                android:textSize="18sp" />
+                android:textColor="#383838"
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/button2"

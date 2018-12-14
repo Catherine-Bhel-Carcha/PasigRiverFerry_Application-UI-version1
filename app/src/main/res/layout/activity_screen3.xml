@@ -36,11 +36,12 @@ tools:context=".MainActivity">
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/ride_with_us"
             android:textAllCaps="false"
             android:textColor="#383838"
             android:textColorHighlight="?android:attr/colorForeground"
-            android:textSize="30sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="@font/anton"
             tools:textAppearance="@style/TextAppearance.AppCompat" />
@@ -51,7 +52,7 @@ tools:context=".MainActivity">
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="90dp"
             android:gravity="center"
             android:text="@string/get_to_know_how_much_you_need_for_a_ride_with_us"
             android:textColor="#383838"
@@ -68,7 +69,6 @@ tools:context=".MainActivity">
             android:text="@string/choose_your_location"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -92,7 +92,6 @@ tools:context=".MainActivity">
             android:text="@string/choose_your_drop_off"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             app:fontFamily="@font/anton" />
 
         <Spinner
@@ -132,40 +131,37 @@ tools:context=".MainActivity">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="375dp"
             android:text="@string/discounted_fare"
-            android:textSize="18sp"
             android:textColor="#383838"
-            android:textStyle="bold"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="20dp" />
+            android:textSize="18sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="410dp"
             android:text="@string/total_fare"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:fontFamily="@font/anton"
             android:textColor="#383838"
-            tools:text="TOTAL FARE:"
-            android:layout_marginStart="20dp" />
+            android:textSize="18sp"
+            app:fontFamily="@font/anton"
+            tools:text="TOTAL FARE:" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
             android:layout_marginTop="440dp"
             android:text="@string/distance"
-            android:textSize="18sp"
             android:textColor="#383838"
-            android:textStyle="bold"
+            android:textSize="18sp"
             app:fontFamily="@font/anton"
-            tools:text="DISTANCE:"
-            android:layout_marginStart="21dp" />
+            tools:text="DISTANCE:" />
 
         <TextView
             android:id="@+id/textView5"
@@ -174,10 +170,9 @@ tools:context=".MainActivity">
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="470dp"
-            android:textColor="#383838"
             android:text="@string/estimated_travel_time"
-            android:textSize="16sp"
-            android:textStyle="bold"
+            android:textColor="#383838"
+            android:textSize="18sp"
             app:fontFamily="@font/anton" />
 
         <TextView
@@ -198,8 +193,8 @@ tools:context=".MainActivity">
             android:layout_marginLeft="230dp"
             android:layout_marginStart="250dp"
             android:layout_marginTop="410dp"
-            android:textColor="#383838"
             android:text="@string/tfare"
+            android:textColor="#383838"
             android:textSize="18sp" />
 
         <TextView

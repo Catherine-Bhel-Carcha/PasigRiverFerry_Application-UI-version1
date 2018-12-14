@@ -35,15 +35,16 @@
         <TextView
             android:id="@+id/info"
             android:layout_width="204dp"
-            android:layout_height="37dp"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/ride_with_us"
             android:textAllCaps="false"
             android:textColor="#383838"
             android:textColorHighlight="?android:attr/colorForeground"
-            android:textSize="30sp"
+            android:textSize="24sp"
             android:textStyle="bold"
             app:fontFamily="@font/anton"
             tools:textAppearance="@style/TextAppearance.AppCompat" />
@@ -54,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
             android:layout_marginRight="25dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="90dp"
             android:gravity="center"
             android:text="@string/get_to_know_how_much_you_need_for_a_ride_with_us"
             android:textColor="#383838"
@@ -71,7 +72,6 @@
             android:text="@string/choose_your_location"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -95,7 +95,6 @@
             android:text="@string/choose_your_drop_off"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             app:fontFamily="@font/anton" />
 
         <Spinner
@@ -114,7 +113,7 @@
             android:layout_height="35dp"
             android:layout_marginLeft="130dp"
             android:layout_marginStart="130dp"
-            android:layout_marginTop="515dp"
+            android:layout_marginTop="500dp"
             android:background="#4C6663"
             android:onClick="process"
             android:text="@string/submit"

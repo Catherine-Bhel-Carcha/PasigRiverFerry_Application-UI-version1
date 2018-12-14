@@ -32,6 +32,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="25dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_your_destination"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -66,17 +67,18 @@
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
                 android:layout_height="251dp"
-                app:srcCompat="@drawable/hulo" />
+                app:srcCompat="@drawable/hulo"
+                android:contentDescription="@string/todo62" />
 
             <TextView
                 android:id="@+id/textView6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#383838"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="250dp"
-                android:text="HULO STATION"
+                android:layout_marginTop="255dp"
+                android:text="@string/hulo_station"
+                android:textColor="#383838"
                 android:textSize="22sp"
                 android:textStyle="bold"
                 app:fontFamily="@font/anton" />
@@ -84,23 +86,23 @@
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="wrap_content"
-                android:textColor="#383838"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="280dp"
-                android:text="Coronada Street, Mandaluyong City"
+                android:layout_marginTop="290dp"
+                android:text="@string/coronado_street_mandaluyong_city"
+                android:textColor="#383838"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="wrap_content"
-                android:textColor="#383838"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
                 android:layout_marginStart="15dp"
-                android:layout_marginTop="305dp"
-                android:text="Near Parish of Our Lady of the Abandoned"
+                android:layout_marginTop="315dp"
+                android:text="@string/near_parish_of_our_lady_of_the_abandoned"
+                android:textColor="#383838"
                 android:textSize="18sp" />
 
             <Button

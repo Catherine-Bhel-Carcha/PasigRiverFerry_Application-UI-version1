@@ -32,16 +32,16 @@
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
+            android:layout_width="318dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
             android:text="@string/frequently_asked_questions"
             android:textColor="#383838"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="20dp" />
+            android:textSize="22sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/info"
@@ -52,6 +52,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_more_about_us"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -86,7 +87,6 @@
             android:text="@string/where_can_we_asked_for_help_if_we_have_questions"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -96,23 +96,25 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
-            android:textColor="#383838"
             android:layout_marginTop="250dp"
+            android:gravity="center"
             android:text="@string/just_visit_the_mmda_website_where_passengers_can_know_the_important_informations_about_the_pasig_river_ferry_service_passengers_can_also_visit_the_facebook_account_at_mmda_pasig_river_where_you_can_be_informed_about_the_important_happenings_and_announcements_about_the_pasig_river_ferry_service"
+            android:textColor="#383838"
             android:textSize="16sp"
             app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView21"
-            android:layout_width="298dp"
+            android:layout_width="322dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:layout_marginTop="430dp"
-             android:textColor="#383838"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="450dp"
+            android:gravity="center"
             android:text="@string/soon_we_will_have_a_telephone_and_cellphone_service_in_every_stations_for_more_inquiries"
+            android:textColor="#383838"
             android:textSize="16sp"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            app:fontFamily="@font/anton" />
 
         <View
             android:id="@+id/divider"

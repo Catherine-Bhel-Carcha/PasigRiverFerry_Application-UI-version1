@@ -32,16 +32,16 @@
 
         <TextView
             android:id="@+id/textView20"
-            android:layout_width="wrap_content"
+            android:layout_width="306dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="130dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
             android:text="@string/frequently_asked_questions"
-            android:textSize="20sp"
-            android:textStyle="bold"
             android:textColor="#383838"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="20dp" />
+            android:textSize="22sp"
+            app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/info"
@@ -52,6 +52,7 @@
             android:layout_marginRight="80dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
+            android:gravity="center"
             android:text="@string/know_more_about_us"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -82,11 +83,10 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="180dp"
+            android:layout_marginTop="170dp"
             android:text="@string/do_you_accept_exclusive_or_special_trips_tour"
             android:textColor="#383838"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:typeface="normal"
             app:fontFamily="@font/anton" />
 
@@ -97,22 +97,24 @@
             android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
             android:layout_marginTop="250dp"
+            android:gravity="center"
             android:text="@string/yes_this_happens_every_sunday_or_current_special_holidays_you_just_need_to_write_a_letter_to_our_office_and_send_it_to_the_officials_you_may_send_the_request_at_mmda_pasig_river_ferry_service_mmda_building_edsa_corner_orense_st_guadalupe_makati_city"
-            android:textSize="18sp"
             android:textColor="#383838"
+            android:textSize="16sp"
             app:fontFamily="@font/anton" />
 
         <TextView
             android:id="@+id/textView22"
-            android:layout_width="310dp"
+            android:layout_width="321dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="420dp"
+            android:gravity="center"
             android:text="@string/dont_forget_to_write_the_following_when_is_the_trip_how_many_passengers_and_your_contact_details_for_easier_transaction_you_can_leave_your_request_at_any_stations_of_the_ferry_service"
-            android:textSize="18sp"
             android:textColor="#383838"
-            app:fontFamily="@font/anton"
-            android:layout_marginStart="15dp" />
+            android:textSize="16sp"
+            app:fontFamily="@font/anton" />
 
         <View
             android:id="@+id/divider"
@@ -120,7 +122,7 @@
             android:layout_height="3dp"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="225dp"
             android:background="@android:color/background_light"
             android:visibility="visible" />
 
