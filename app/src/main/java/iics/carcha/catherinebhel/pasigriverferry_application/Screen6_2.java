@@ -13,7 +13,7 @@ public class Screen6_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen6_2);
     }
-/*
+
     float x1, y1, x2, y2;
 
     public boolean onTouchEvent(MotionEvent touchEvent){
@@ -37,10 +37,9 @@ public class Screen6_2 extends AppCompatActivity {
         return false;
     }
 
-    public void process(View v){
-        if(v.getId()==R.id.button2) {
+    public void process(View v) {
+        if (v.getId() == R.id.button2) {
             startActivity(Stations.goToMaps(9));
         }
     }
-    */
 }
