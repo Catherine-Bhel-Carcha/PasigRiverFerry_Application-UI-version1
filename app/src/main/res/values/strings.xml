@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PasigRiverFerry_Application</string>
+    <string name="app_name">PasigRiverFerryApp</string>
     <string name="ride_with_us">RIDE WITH US</string>
     <string name="know_your_destinations">KNOW YOUR DESTINATIONS</string>
     <string name="know_us_more">KNOW US MORE</string>
@@ -103,6 +103,5 @@
     <string name="guadalupe_station">GUADALUPE STATION</string>
     <string name="j_p_rizal_extension_makati_city">J.P. Rizal Extension, Makati City</string>
     <string name="near_mrt_guadalupe_station_at_commercial_mall">Near MRT Guadalupe Station at Commercial Mall</string>
-    <string name="todo62">TODO</string>
 </resources>
 

@@ -25,22 +25,16 @@ public class Screen6_9 extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(this, Screen6_10.class);
                     startActivity(i);
-                }else if(x1 > x2){
+                }else if(x1 < x2){
                     Intent i = new Intent(this, Screen6_8.class);
                     startActivity(i);
                 }
                 break;
         }
         return false;
-    }
-
-    @Override
-    public void onBackPressed() {
-        Intent i = new Intent(this, Screen4.class);
-        startService(i);
     }
 
     public void process(View v){

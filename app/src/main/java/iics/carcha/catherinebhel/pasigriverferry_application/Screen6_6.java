@@ -25,10 +25,10 @@ public class Screen6_6 extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(this, Screen6_7.class);
                     startActivity(i);
-                }else if(x1 > x2){
+                }else if(x1 < x2){
                     Intent i = new Intent(this, Screen6_5.class);
                     startActivity(i);
                 }
@@ -37,15 +37,9 @@ public class Screen6_6 extends AppCompatActivity {
         return false;
     }
 
-    @Override
-    public void onBackPressed() {
-        Intent i = new Intent(this, Screen4.class);
-        startService(i);
-    }
-
     public void process(View v){
         if(v.getId()==R.id.button2) {
-            startActivity(Stations.goToMaps(9));
+            startActivity(Stations.goToMaps(10));
         }
     }
 }

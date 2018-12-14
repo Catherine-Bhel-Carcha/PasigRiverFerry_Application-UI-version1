@@ -22,10 +22,6 @@ public class Screen2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen2);
 
-        CheckBox discount = (CheckBox) findViewById(R.id.discount);
-        if(discount.isChecked()){
-            disc=true;
-        }
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner_location); // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Stations, android.R.layout.simple_spinner_item); // Specify the layout to use when the list of choices appears
@@ -141,6 +137,14 @@ public class Screen2 extends AppCompatActivity {
     }
     public void process(View v) {
 
+        CheckBox discount = findViewById(R.id.discount);
+        if(discount.isChecked()==true){
+            disc=true;
+        }
+        else{
+            disc=false;
+        }
+
         Intent i = null, chooser = null;
         if(dest==drop) {
             Toast.makeText(this,"Your destination and dropoff can't be the same", Toast.LENGTH_SHORT).show();
@@ -159,7 +163,7 @@ public class Screen2 extends AppCompatActivity {
             i.putExtra("dest",dest);
             i.putExtra("drop",drop);
             i.putExtra("disc",disc);
-            Log.d("Screen2","Locations: "+dest+" and "+drop);
+            Log.d("Screen2","Locations: "+dest+" and "+drop+" "+disc);
             startActivity(i);
         }
         // } else if (v.getId() == R.id.stations) {

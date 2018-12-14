@@ -24,18 +24,21 @@ public class Screen3 extends AppCompatActivity {
         TextView tFare = (TextView)findViewById(R.id.TFARE);
         TextView distance = (TextView)findViewById(R.id.Distance);
         TextView eTT = (TextView)findViewById(R.id.ETT);
-        CheckBox discount = (CheckBox) findViewById(R.id.discount);
+        CheckBox discount = findViewById(R.id.discount);
 
         String list1[]={dest};
         String list2[]={drop};
 
-        double d_fare=0.00;
+        //double d_fare=0.00;
         double t_fare=0.00;
         double dist=0.00;
         double time=0.00;
 
         if(disc){
             discount.setChecked(true);
+        }
+        else{
+            discount.setChecked(false);
         }
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner_location); // Create an ArrayAdapter using the string array and a default spinner layout

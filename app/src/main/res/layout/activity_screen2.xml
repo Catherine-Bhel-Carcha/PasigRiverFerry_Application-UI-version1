@@ -125,9 +125,10 @@
             android:id="@+id/discount"
             android:layout_width="303dp"
             android:layout_height="25dp"
-            android:layout_marginLeft="30dp"
             android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="330dp"
+            android:checked="false"
             android:text="@string/are_you_a_senior_student_pwd" />
     </android.support.v7.widget.CardView>
 </RelativeLayout>

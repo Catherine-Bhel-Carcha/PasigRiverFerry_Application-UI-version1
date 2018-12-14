@@ -22,43 +22,43 @@ public class Screen4 extends AppCompatActivity {
             i = new Intent(this, Screen6_1.class);
             startActivity(i);
         }
-        if(v.getId()==R.id.about){
+        if(v.getId()==R.id.guadalupe){
             i = new Intent(this, Screen6_2.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.pinagbuhatan) {
+        if (v.getId() == R.id.hulo) {
             i = new Intent(this, Screen6_3.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.escolta){
+        if (v.getId() == R.id.lambingan){
             i = new Intent(this, Screen6_4.class);
             startActivity(i);
         }
-        if(v.getId()==R.id.about){
+        if(v.getId()==R.id.lawton){
             i = new Intent(this, Screen6_5.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.pinagbuhatan) {
+        if (v.getId() == R.id.maybunga) {
             i = new Intent(this, Screen6_6.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.escolta){
+        if (v.getId() == R.id.pup){
             i = new Intent(this, Screen6_7.class);
             startActivity(i);
         }
-        if(v.getId()==R.id.about){
+        if(v.getId()==R.id.valenzuela){
             i = new Intent(this, Screen6_8.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.pinagbuhatan) {
+        if (v.getId() == R.id.sta) {
             i = new Intent(this, Screen6_9.class);
             startActivity(i);
         }
-        if (v.getId() == R.id.escolta){
+        if (v.getId() == R.id.plaza){
             i = new Intent(this, Screen6_10.class);
             startActivity(i);
         }
-        if(v.getId()==R.id.about){
+        if(v.getId()==R.id.san){
             i = new Intent(this, Screen6_11.class);
             startActivity(i);
         }
@@ -74,5 +74,6 @@ public class Screen4 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
     }
 }

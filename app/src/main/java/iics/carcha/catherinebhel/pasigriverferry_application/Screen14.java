@@ -34,10 +34,4 @@ public class Screen14 extends AppCompatActivity {
         }
         return false;
     }
-
-    @Override
-    public void onBackPressed() {
-        Intent i = new Intent(this, Screen8.class);
-        startService(i);
-    }
 }

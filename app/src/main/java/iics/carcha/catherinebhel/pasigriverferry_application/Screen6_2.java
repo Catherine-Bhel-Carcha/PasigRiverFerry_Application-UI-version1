@@ -8,13 +8,13 @@ import android.view.View;
 
 public class Screen6_2 extends AppCompatActivity {
 
-    float x1, y1, x2, y2;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen6_2);
     }
+/*
+    float x1, y1, x2, y2;
 
     public boolean onTouchEvent(MotionEvent touchEvent){
         switch(touchEvent.getAction()){
@@ -25,10 +25,10 @@ public class Screen6_2 extends AppCompatActivity {
             case MotionEvent.ACTION_UP:
                 x2 = touchEvent.getX();
                 y2 = touchEvent.getY();
-                if(x1 < x2){
+                if(x1 > x2){
                     Intent i = new Intent(this, Screen6_3.class);
                     startActivity(i);
-                }else if(x1 > x2){
+                }else if(x1 < x2){
                     Intent i = new Intent(this, Screen6_1.class);
                     startActivity(i);
                 }
@@ -42,10 +42,5 @@ public class Screen6_2 extends AppCompatActivity {
             startActivity(Stations.goToMaps(9));
         }
     }
-
-    @Override
-    public void onBackPressed() {
-        Intent i = new Intent(this, Screen4.class);
-        startService(i);
-    }
+    */
 }
