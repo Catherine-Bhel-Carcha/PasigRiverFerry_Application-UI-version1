@@ -29,11 +29,12 @@
             android:id="@+id/info"
             android:layout_width="309dp"
             android:layout_height="37dp"
-            android:layout_marginEnd="80dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginRight="80dp"
             android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="60dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:gravity="center_horizontal"
             android:text="@string/know_your_destination"
             android:textAllCaps="false"
             android:textColor="#383838"
@@ -60,120 +61,132 @@
             android:id="@+id/pinagbuhatan"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="152dp"
-            app:srcCompat="@drawable/pinagbuhatan1"
             android:contentDescription="@string/todo"
-            android:layout_marginStart="15dp" />
+            android:onClick="process"
+            app:srcCompat="@drawable/pinagbuhatan1" />
 
         <ImageButton
             android:id="@+id/escolta"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="122dp"
             android:layout_marginLeft="122dp"
             android:layout_marginTop="152dp"
-            app:srcCompat="@drawable/escolta1"
-            android:layout_marginStart="122dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/escolta1" />
 
         <ImageButton
             android:id="@+id/guadalupe"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="230dp"
             android:layout_marginLeft="230dp"
             android:layout_marginTop="152dp"
-            app:srcCompat="@drawable/guadalupe1"
-            android:layout_marginStart="230dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/guadalupe1" />
 
         <ImageButton
             android:id="@+id/hulo"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="240dp"
-            app:srcCompat="@drawable/hulo1"
             android:contentDescription="@string/todo"
-            android:layout_marginStart="15dp" />
+            android:onClick="process"
+            app:srcCompat="@drawable/hulo1" />
 
         <ImageButton
             android:id="@+id/lambingan"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="122dp"
             android:layout_marginLeft="122dp"
             android:layout_marginTop="240dp"
-            app:srcCompat="@drawable/lambingan1"
-            android:layout_marginStart="122dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/lambingan1" />
 
         <ImageButton
             android:id="@+id/lawton"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="230dp"
             android:layout_marginLeft="230dp"
             android:layout_marginTop="240dp"
-            app:srcCompat="@drawable/lawton1"
-            android:layout_marginStart="230dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/lawton1" />
 
         <ImageButton
             android:id="@+id/maybunga"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="15dp"
             android:layout_marginLeft="15dp"
             android:layout_marginTop="328dp"
-            app:srcCompat="@drawable/maybunga1"
             android:contentDescription="@string/todo"
-            android:layout_marginStart="15dp" />
+            android:onClick="process"
+            app:srcCompat="@drawable/maybunga1" />
 
         <ImageButton
             android:id="@+id/pup"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="122dp"
             android:layout_marginLeft="122dp"
             android:layout_marginTop="328dp"
-            app:srcCompat="@drawable/pup"
-            android:layout_marginStart="122dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/pup" />
 
         <ImageButton
             android:id="@+id/valenzuela"
             android:layout_width="103dp"
             android:layout_height="82dp"
+            android:layout_marginStart="230dp"
             android:layout_marginLeft="230dp"
             android:layout_marginTop="328dp"
-            app:srcCompat="@drawable/valenzuela1"
-            android:layout_marginStart="230dp"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            android:onClick="process"
+            app:srcCompat="@drawable/valenzuela1" />
 
         <ImageButton
             android:id="@+id/sta"
             android:layout_width="103dp"
             android:layout_height="82dp"
-            android:layout_marginLeft="15dp"
             android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
             android:layout_marginTop="415dp"
             android:contentDescription="@string/todo"
+            android:onClick="process"
             app:srcCompat="@drawable/staana2" />
 
         <ImageButton
             android:id="@+id/plaza"
             android:layout_width="103dp"
             android:layout_height="82dp"
-            android:layout_marginLeft="122dp"
             android:layout_marginStart="122dp"
+            android:layout_marginLeft="122dp"
             android:layout_marginTop="415dp"
             android:contentDescription="@string/todo"
+            android:onClick="process"
             app:srcCompat="@drawable/hi" />
 
         <ImageButton
             android:id="@+id/san"
             android:layout_width="103dp"
             android:layout_height="82dp"
-            android:layout_marginLeft="230dp"
             android:layout_marginStart="230dp"
+            android:layout_marginLeft="230dp"
             android:layout_marginTop="415dp"
             android:contentDescription="@string/todo"
+            android:onClick="process"
             app:srcCompat="@drawable/hello" />
 
         <Button

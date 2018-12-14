@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -18,10 +19,12 @@ public class Screen3 extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         String dest= bundle.getString("dest");
         String drop= bundle.getString("drop");
+        boolean disc= bundle.getBoolean("disc");
         TextView dFare = (TextView)findViewById(R.id.DFARE);
         TextView tFare = (TextView)findViewById(R.id.TFARE);
         TextView distance = (TextView)findViewById(R.id.Distance);
         TextView eTT = (TextView)findViewById(R.id.ETT);
+        CheckBox discount = (CheckBox) findViewById(R.id.discount);
 
         String list1[]={dest};
         String list2[]={drop};
@@ -30,6 +33,10 @@ public class Screen3 extends AppCompatActivity {
         double t_fare=0.00;
         double dist=0.00;
         double time=0.00;
+
+        if(disc){
+            discount.setChecked(true);
+        }
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner_location); // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<String> adapter =new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,list1); // Specify the layout to use when the list of choices appears
@@ -738,8 +745,13 @@ public class Screen3 extends AppCompatActivity {
             time=3.00;
         }
 
-        dFare.setText((t_fare*0.8)+"");
-        tFare.setText(t_fare+"");
+        //dFare.setText((t_fare*0.8)+"");
+        if(disc){
+            tFare.setText((t_fare*0.8)+"");
+        }
+        else{
+            tFare.setText(t_fare+"");
+        }
         distance.setText(dist+" Kms.");
         eTT.setText(time+" mins.");
         Log.d("Screen3","Dropoff: "+dest+" and "+drop);
@@ -748,8 +760,7 @@ public class Screen3 extends AppCompatActivity {
     public void process(View v) {
         Intent i = null, chooser = null;
         if (v.getId() == R.id.other) {
-            i = new Intent(this, Screen2.class);
-            startActivity(i);
+            super.onBackPressed();
         }
         // } else if (v.getId() == R.id.stations) {
         //    i = new Intent(getIntent().ACTION_VIEW);

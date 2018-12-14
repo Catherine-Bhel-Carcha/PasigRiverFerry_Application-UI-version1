@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -14,11 +15,17 @@ public class Screen2 extends AppCompatActivity {
 
     String dest="";
     String drop="";
+    boolean disc=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen2);
+
+        CheckBox discount = (CheckBox) findViewById(R.id.discount);
+        if(discount.isChecked()){
+            disc=true;
+        }
 
         Spinner spinner = (Spinner) findViewById(R.id.spinner_location); // Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Stations, android.R.layout.simple_spinner_item); // Specify the layout to use when the list of choices appears
@@ -151,6 +158,7 @@ public class Screen2 extends AppCompatActivity {
             i = new Intent(this, Screen3.class);
             i.putExtra("dest",dest);
             i.putExtra("drop",drop);
+            i.putExtra("disc",disc);
             Log.d("Screen2","Locations: "+dest+" and "+drop);
             startActivity(i);
         }

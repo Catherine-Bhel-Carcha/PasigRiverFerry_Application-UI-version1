@@ -68,4 +68,11 @@ public class Screen4 extends AppCompatActivity {
         //chooser = Intent.createChooser(i, "Choose A Map App");
         //startActivity(chooser);
     }
+
+
+
+    @Override
+    public void onBackPressed() {
+        Intent i = new Intent(this, MainActivity.class);
+    }
 }
